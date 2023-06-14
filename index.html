@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component communication patterns</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+    <section class="wrapper">
+        <notification-hub data-heading="You don't have any notifications!"></notification-hub>
+
+        <div class="components">
+            <notification-trigger data-component-id="cmp1" data-heading="Component 1" data-theme="white" data-input-label="Please add a text" data-trigger-label="Submit!"></notification-trigger>
+            <notification-trigger data-component-id="cmp2" data-heading="Component 2" data-theme="gray" data-input-label="Please add a text" data-trigger-label="Submit!"></notification-trigger>
+            <notification-trigger data-component-id="cmp3" data-heading="Component 3" data-theme="red" data-input-label="Please add a text" data-trigger-label="Submit!"></notification-trigger>
+        </div>
+
+        <notification-footer data-heading="Notification Footer" data-subheading="Thanks for using notification hub" data-clear-text="Clear notifications!"></notification-footer>
+    </section>
+
+    <script src="state.js"></script>
+    <script src="notif-hub.js"></script>
+    <script src="notif-trigger.js"></script>
+    <script src="notif-footer.js"></script>
+</body>
+</html>

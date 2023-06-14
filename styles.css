@@ -1,0 +1,53 @@
+body {
+    color: #4c4b4b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    padding: 7px;
+    border-radius: 5px;;
+    border: 1px solid #CCC;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+notification-hub {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #cddbe9;
+    border: 1px solid #CCC;
+}
+
+notification-trigger {
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+    .gray {
+        background-color: #CCC;
+    }
+    .red {
+        background-color: red;
+    }
+}
+
+notification-footer {
+    padding: 30px;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #CCC;
+}
+
+.components {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notif {
+    margin: 10px 0;
+}
